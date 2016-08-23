@@ -211,10 +211,10 @@ class AppCommand extends Command
                 $this->error('Password is invalid. Please try again.');
             }
 
-            $username = 'phillipmadsen';
+       
             // Store the password
             $this->userData['isAdmin'] = 1;
-            $this->userData['username'] = $username;
+        
 
             $this->userData['password'] = $password;
         } while (!$password);
